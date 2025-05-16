@@ -19,6 +19,7 @@ sigma_sc = 0.64117;
 % External source
 S = zeros(Nz, 1);
 S(Nz/4+1:3*Nz/4) = 1; % Localized source in the center
+
 tic;
 [Phi, it1,err1] = solve_Sn_oneG(H,Nz,N,sigma_t,sigma_sc,S);
 toc;
