@@ -5,8 +5,10 @@ This repository contains a collection of MATLAB scripts to solve simplified one-
 ## Features
 
 - Implementation of the Sn method for 1D slab geometry
-- Source iteration for solving the transport equation
-- Scalar flux computation and visualization
+- Source iteration method for solving the transport equation with an external source
+- Power Iteratin method to solve criticality problem
+- Thermal iterations in case of multi-group
+- Acceleration methods
 
 ## Requirements
 
